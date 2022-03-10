@@ -1,0 +1,1 @@
+This repository is for learning how the C language works
