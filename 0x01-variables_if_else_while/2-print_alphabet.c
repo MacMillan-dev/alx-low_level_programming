@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *main - returns putchar function  that prints alphabet in
+ *main - returns putchar function that prints alphabet in
  *lowercase followed by newline
  *return: Always 0(success)
  */
