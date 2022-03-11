@@ -2,17 +2,21 @@
 /**
  *main - Entry point
  *
- *Return: Always 0 (Success)
+ *Return: Always 0(Success)
  */
 int main(void)
 {
-int ch;
-for (ch = 'a'; ch <= 'z'; ch++)
+for (ch = 'a'; ch = 'z'; ch++)
 {
-if (ch = 'q' || ch = 'e')
+if (ch != 'q' || ch != 'e')
 {
-break;
-}else
+continue;
+}
+{
+putchar(ch);
+}
 putchar('\n');
 return (0);
-}
+}	
+
+
