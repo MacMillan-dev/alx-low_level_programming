@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
  *main - Entry point
+ *returns alphabets in lowercase followed by newline
  *return: Always 0(success)
  */
 int main(void)
