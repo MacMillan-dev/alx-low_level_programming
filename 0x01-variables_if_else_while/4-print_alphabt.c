@@ -7,15 +7,10 @@
 int main(void)
 {
 int ch;
-for (ch = 'a'; ch <= 'z'; ch++)
-if (ch == 'q' || 'e')
-{
-break;
-}
-else
+while (ch != 'q' || 'e')
 {
 putchar(ch);
 }
-putchar('\n');
+putchar('\n')
 return (0);
 }
