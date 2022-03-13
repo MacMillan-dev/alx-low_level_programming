@@ -14,7 +14,7 @@ putchar(i + '0');
 }
 for (b = 'a'; b <= 'f'; b++)
 {
-putchar(d);
+putchar(b);
 }
 putchar('\n');
 return (0);
