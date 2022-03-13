@@ -6,11 +6,11 @@
  */
 int main(void)
 {
-int i_;
-for (i_ = 0; i_ < 10; i_++)
-{
-putchar(i_);
-}
+int a;
+do{
+putchar(a +'0');
+a++;
+}while (a <= 9);
 putchar('\n');
 return (0);
 }
