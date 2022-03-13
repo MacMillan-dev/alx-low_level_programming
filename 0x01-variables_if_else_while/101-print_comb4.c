@@ -12,7 +12,7 @@ for (a = 0; a < 1000; a++)
 b = a / 100; /* hundreds */
 c = (a / 10) % 10; /* tens */
 d = a % 10; /* unit */
-if (b < c && c < a)
+if (b < c && c < d)
 {
 putchar(b + '0');
 putchar(c + '0');
