@@ -2,7 +2,7 @@
 /**
  *main - Entry
  *
- *return: returns 0 (Success)
+ *Return: returns 0 (Success)
  */
 int main(void)
 {
