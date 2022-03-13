@@ -11,9 +11,11 @@ for (ch = 'a'; ch <= 'z'; ch++)
 {
 if (ch != 'q' || ch != 'e')
 {
-continue;
-}
 putchar(ch);
+}
+else
+{
+}
 }
 putchar('\n');
 return (0);
