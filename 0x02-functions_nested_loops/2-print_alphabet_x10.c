@@ -1,5 +1,5 @@
 #include "main.h"
-/**
+0;276;0c/**
  *print_alphabet_x10 - Entry
  *
  *Return: Always 0 (Success)
@@ -12,8 +12,9 @@ char ch = 'a';
 while (ch <= 'z')
 {
 _putchar(ch);
-ch = ch + 10;
+ch++;
 }
+i++;
 }
 _putchar('\n');
 }
