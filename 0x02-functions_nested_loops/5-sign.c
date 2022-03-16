@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  *print_sign - Entry point
+ *@n: function parameter of type int 
  *_putchar: takes sign of a number
  *Return: 1 if n is positive, 0 if n is 0, -1 if n is negative
  */
@@ -10,7 +11,7 @@ int value;
 if (n > 0)
 {
 value = 1;
- _putchar('+');
+_putchar('+');
 }
 else if (n == 0)
 {
