@@ -1,5 +1,5 @@
 #include "main.h"
- /**
+/**
  *print_sign - prints the sign of a number n
  *@n: function parameter of type int
  *_putchar: takes sign of a number
