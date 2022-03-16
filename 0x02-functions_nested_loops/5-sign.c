@@ -1,7 +1,7 @@
 #include "main.h"
-/**
+ /**
  *print_sign - Entry point
- *@n: function parameter of type int 
+ *@n: function parameter of type int
  *_putchar: takes sign of a number
  *Return: 1 if n is positive, 0 if n is 0, -1 if n is negative
  */
