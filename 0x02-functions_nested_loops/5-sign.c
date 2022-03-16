@@ -1,5 +1,5 @@
 #include "main.h"
- /**
+/**
  *print_sign - Entry point
  *@n: takes sign of a number
  *Return: 1 if n is positive, 0 if n is 0, -1 if n is negative
@@ -21,5 +21,5 @@ else if (n < 1)
 _putchar('-');
 return (-1);
 }
-return n;
+return (n);
 }
