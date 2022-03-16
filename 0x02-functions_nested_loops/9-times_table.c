@@ -4,7 +4,7 @@
  */
 void times_table(void)
 {
-int x, y, mul;
+int a, b, mul;
 for (a = 0; a <=9; a++)
 {
 for (b = 0; b <= 9; b++)
@@ -24,7 +24,7 @@ else if (mul >= 10)
 _putchar((mul / 10) + '0');
 _putchar((mul % 10) + '0');
 }
-else if ((mul < 10) && (j != 0))
+else if ((mul < 10) && (b != 0))
 {
 _putchar(' ');
 _putchar((mul % 10) + '0');
